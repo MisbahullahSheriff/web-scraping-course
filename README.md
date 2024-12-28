@@ -14,6 +14,7 @@ Welcome to the **Web Scraping with Python** course! This course is designed to g
 4. [Interacting with the Web using Requests](4.%Requests/)
 5. [HTML Parsing using Beautiful Soup](5.%20Beautiful%20Soup/)
 6. [Web Automation using Selenium](6.%20Selenium/)
+7. [Final Projects: Real-world Applications](7.%20Final%20Projects/)
 
 ---
 
@@ -126,28 +127,22 @@ Selenium is a powerful tool for automating browser interactions. This section in
 
 ---
 
-## 7. Case Study: A Complete Web Scraping Project
+## 7. Final Projects: Real-World Scraping Applications
 
-In this final section, you will apply everything you've learned to complete a real-world web scraping project. The case study focuses on scraping data from an e-commerce website.
+In this section, we demonstrate practical implementations of web scraping through two comprehensive real-world projects. These projects exemplify the end-to-end process of web automation, extracting and cleaning data, showcasing the power of web scraping for actionable insights.
 
-- **Project Setup**
-  - Creating a project from scratch, setting up the environment, and choosing tools.
+- **1. Stock Market Analysis with Yahoo Finance**
+  - Scraped data of most active stocks from [Yahoo Finance](https://finance.yahoo.com/)
+  - Extracted real-time stock prices, historical data, and key financial metrics.
+  - Performed data cleaning and transformation using Pandas.
+  - Redesigned the scripts using an object-oriented paradigm to improve code organization, reusability, and alignment with best practices.
   
-- **Scraping Data**
-  - Scraping product details, images, and prices from an e-commerce website.
-  
-- **Handling Dynamic Content and Pagination**
-  - Navigating through multiple pages and handling dynamically loaded content.
-  
-- **Data Storage**
-  - Storing the scraped data in CSV or JSON format for further analysis.
-
----
-
-## Final Project: Real-World Scraping Application
-
-In this section, you will integrate all the skills learned throughout the course to develop a complete web scraping project. This project will involve automating data extraction from a dynamic site and storing the scraped data for further analysis.
-
+- **2. Real Estate Market Insights from 99acres**
+  - Designed a robust scraper using Selenium to collect real-estate listings from [99acres](https://www.99acres.com/)
+  - Addressed dynamic loading challenges by handling JavaScript-rendered content.
+  - Cleaned and structured the data into a usable format with Pandas for further analysis.
+  - Refactored the scripts to adopt an object-oriented programming approach, enhancing modularity, maintainability, and adherence to best coding practices.
+    
 ---
 
 ## Additional Resources
